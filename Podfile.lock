@@ -1,0 +1,28 @@
+PODS:
+  - AEXML (4.6.1)
+  - QXMessageView (0.0.6)
+  - SSZipArchive (2.1.5)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AEXML
+  - QXMessageView
+  - SSZipArchive
+  - YYText
+
+SPEC REPOS:
+  trunk:
+    - AEXML
+    - QXMessageView
+    - SSZipArchive
+    - YYText
+
+SPEC CHECKSUMS:
+  AEXML: 1e255ecc6597212f97a7454a69ebd3ede64ac1cf
+  QXMessageView: 1a26098660e0b1e4f857e85fd5181d0689a30324
+  SSZipArchive: cefe1364104a0231268a5deb8495bdf2861f52f0
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 88ece0fa74a1e5587808e46f8b860097b48188d6
+
+COCOAPODS: 1.11.2

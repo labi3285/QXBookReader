@@ -1,0 +1,35 @@
+
+html, body {
+    -webkit-text-size-adjust: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+img {
+    max-width: calc(100vw - 15px * 2);
+}
+* { -webkit-user-select: text; }
+
+mark {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+html .__qx_book_highlight_yellow { background: rgb(255, 235, 107); }
+html .__qx_book_highlight_green { background: #c0ed72; }
+html .__qx_book_highlight_blue { background: #add8ff; }
+html .__qx_book_highlight_pink { background: #ffb0ca; }
+html .__qx_book_highlight_underline {
+    text-decoration: none;
+    border-bottom: 2px solid #f02814;
+}
+
+html .__qx_book_highlight_yellow,
+html .__qx_book_highlight_green,
+html .__qx_book_highlight_blue,
+html .__qx_book_highlight_pink,
+span .epub-media-overlay-playing {
+    border-radius: 3px;
+    padding: 0 2px;
+    margin: 0 -2px;
+}

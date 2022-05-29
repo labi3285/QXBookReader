@@ -1,0 +1,147 @@
+
+/* ------------------------- font size ------------------------ */
+html.__qx_book_font_size_10, .__qx_book_font_size_10 body { font-size: 10px !important; }
+html.__qx_book_font_size_12, .__qx_book_font_size_12 body { font-size: 12px !important; }
+html.__qx_book_font_size_14, .__qx_book_font_size_14 body { font-size: 14px !important; }
+html.__qx_book_font_size_16, .__qx_book_font_size_16 body { font-size: 16px !important; }
+html.__qx_book_font_size_18, .__qx_book_font_size_18 body { font-size: 18px !important; }
+html.__qx_book_font_size_20, .__qx_book_font_size_20 body { font-size: 20px !important; }
+html.__qx_book_font_size_22, .__qx_book_font_size_22 body { font-size: 22px !important; }
+html.__qx_book_font_size_24, .__qx_book_font_size_24 body { font-size: 24px !important; }
+html.__qx_book_font_size_26, .__qx_book_font_size_26 body { font-size: 26px !important; }
+html.__qx_book_font_size_28, .__qx_book_font_size_28 body { font-size: 28px !important; }
+html.__qx_book_font_size_30, .__qx_book_font_size_30 body { font-size: 30px !important; }
+
+/* ------------------------- line height ------------------------ */
+html.__qx_book_line_space_rate_1_2, .__qx_book_line_space_rate_1_2 body { line-height: 1.2 !important; }
+html.__qx_book_line_space_rate_1_4, .__qx_book_line_space_rate_1_4 body { line-height: 1.4 !important; }
+html.__qx_book_line_space_rate_1_6, .__qx_book_line_space_rate_1_6 body { line-height: 1.6 !important; }
+
+/* ------------------------- theme gray ------------------------ */
+html.__qx_book_theme_gray,
+html.__qx_book_theme_gray body {
+    background-color: #393536 !important;
+}
+.__qx_book_theme_gray p,
+.__qx_book_theme_gray div,
+.__qx_book_theme_gray span:not(.epub-media-overlay-playing) {
+    color: #969293 !important;
+    background-color: transparent !important;
+}
+.__qx_book_theme_gray h1,
+.__qx_book_theme_gray h2,
+.__qx_book_theme_gray h3,
+.__qx_book_theme_gray h4,
+.__qx_book_theme_gray h5,
+.__qx_book_theme_gray h6 {
+    color: #969293 !important;
+}
+html.__qx_book_theme_gray .highlight-yellow { background:rgba(255, 235, 107, 0.9) }
+html.__qx_book_theme_gray .highlight-green { background:rgba(192, 237, 114, 0.9) }
+html.__qx_book_theme_gray .highlight-blue { background:rgba(173, 216, 255, 0.9) }
+html.__qx_book_theme_gray .highlight-pink { background:rgba(255, 176, 202, 0.9) }
+html.__qx_book_theme_gray .highlight-underline { border-bottom: 2px solid rgba(240, 40, 20, 0.6) }
+
+
+/* ------------------------- theme night ------------------------ */
+html.__qx_book_theme_night,
+html.__qx_book_theme_night body {
+    background-color: #061c29 !important;
+}
+.__qx_book_theme_night p,
+.__qx_book_theme_night div,
+.__qx_book_theme_night span:not(.epub-media-overlay-playing) {
+    color: #526875 !important;
+    background-color: transparent !important;
+}
+.__qx_book_theme_night h1,
+.__qx_book_theme_night h2,
+.__qx_book_theme_night h3,
+.__qx_book_theme_night h4,
+.__qx_book_theme_night h5,
+.__qx_book_theme_night h6 {
+    color: #526875 !important;
+}
+html.__qx_book_theme_night .highlight-yellow { background:rgba(255, 235, 107, 0.9) }
+html.__qx_book_theme_night .highlight-green { background:rgba(192, 237, 114, 0.9) }
+html.__qx_book_theme_night .highlight-blue { background:rgba(173, 216, 255, 0.9) }
+html.__qx_book_theme_night .highlight-pink { background:rgba(255, 176, 202, 0.9) }
+html.__qx_book_theme_night .highlight-underline { border-bottom: 2px solid rgba(240, 40, 20, 0.6) }
+
+
+/* ------------------------- theme papper ------------------------ */
+html.__qx_book_theme_papper,
+html.__qx_book_theme_papper body {
+    background-color: #f7dcaf !important;
+}
+.__qx_book_theme_papper p,
+.__qx_book_theme_papper div,
+.__qx_book_theme_papper span:not(.epub-media-overlay-playing) {
+    color: #734222 !important;
+    background-color: transparent !important;
+}
+.__qx_book_theme_papper h1,
+.__qx_book_theme_papper h2,
+.__qx_book_theme_papper h3,
+.__qx_book_theme_papper h4,
+.__qx_book_theme_papper h5,
+.__qx_book_theme_papper h6 {
+    color: #734222 !important;
+}
+html.__qx_book_theme_papper .highlight-yellow { background:rgba(255, 235, 107, 0.9) }
+html.__qx_book_theme_papper .highlight-green { background:rgba(192, 237, 114, 0.9) }
+html.__qx_book_theme_papper .highlight-blue { background:rgba(173, 216, 255, 0.9) }
+html.__qx_book_theme_papper .highlight-pink { background:rgba(255, 176, 202, 0.9) }
+html.__qx_book_theme_papper .highlight-underline { border-bottom: 2px solid rgba(240, 40, 20, 0.6) }
+
+
+/* ------------------------- theme flower ------------------------ */
+html.__qx_book_theme_flower,
+html.__qx_book_theme_flower body {
+    background-color: #ffe7e7 !important;
+}
+.__qx_book_theme_flower p,
+.__qx_book_theme_flower div,
+.__qx_book_theme_flower span:not(.epub-media-overlay-playing) {
+    color: #723948 !important;
+    background-color: transparent !important;
+}
+.__qx_book_theme_flower h1,
+.__qx_book_theme_flower h2,
+.__qx_book_theme_flower h3,
+.__qx_book_theme_flower h4,
+.__qx_book_theme_flower h5,
+.__qx_book_theme_flower h6 {
+    color: #723948 !important;
+}
+html.__qx_book_theme_flower .highlight-yellow { background:rgba(255, 235, 107, 0.9) }
+html.__qx_book_theme_flower .highlight-green { background:rgba(192, 237, 114, 0.9) }
+html.__qx_book_theme_flower .highlight-blue { background:rgba(173, 216, 255, 0.9) }
+html.__qx_book_theme_flower .highlight-pink { background:rgba(255, 176, 202, 0.9) }
+html.__qx_book_theme_flower .highlight-underline { border-bottom: 2px solid rgba(240, 40, 20, 0.6) }
+
+
+/* ------------------------- theme grass ------------------------ */
+html.__qx_book_theme_grass,
+html.__qx_book_theme_grass body {
+    background-color: #d6efd2 !important;
+}
+.__qx_book_theme_grass p,
+.__qx_book_theme_grass div,
+.__qx_book_theme_grass span:not(.epub-media-overlay-playing) {
+    color: #2d4c2d !important;
+    background-color: transparent !important;
+}
+.__qx_book_theme_grass h1,
+.__qx_book_theme_grass h2,
+.__qx_book_theme_grass h3,
+.__qx_book_theme_grass h4,
+.__qx_book_theme_grass h5,
+.__qx_book_theme_grass h6 {
+    color: #2d4c2d !important;
+}
+html.__qx_book_theme_grass .highlight-yellow { background:rgba(255, 235, 107, 0.9) }
+html.__qx_book_theme_grass .highlight-green { background:rgba(192, 237, 114, 0.9) }
+html.__qx_book_theme_grass .highlight-blue { background:rgba(173, 216, 255, 0.9) }
+html.__qx_book_theme_grass .highlight-pink { background:rgba(255, 176, 202, 0.9) }
+html.__qx_book_theme_grass .highlight-underline { border-bottom: 2px solid rgba(240, 40, 20, 0.6) }

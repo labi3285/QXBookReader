@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CE972E72FA9D3D3735FFCA /* Pods_QXBookReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F62FC5C4511E4664130C51 /* Pods_QXBookReader.framework */; };
+		752B7C2327B4DDFB007CE029 /* QXBookReaderVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B7C2227B4DDFB007CE029 /* QXBookReaderVc.swift */; };
+		752B7C2927B500A1007CE029 /* QXBookReaderLoadStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B7C2827B500A1007CE029 /* QXBookReaderLoadStatusView.swift */; };
+		752B7C2C27B50569007CE029 /* QXBookReaderUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B7C2B27B50569007CE029 /* QXBookReaderUtils.swift */; };
+		752B7C2E27B51631007CE029 /* QXBookReaderResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 752B7C2D27B51631007CE029 /* QXBookReaderResources.bundle */; };
+		752B7C3027B51929007CE029 /* QXBookReaderUIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B7C2F27B51929007CE029 /* QXBookReaderUIs.swift */; };
+		752B7C3227B51ACA007CE029 /* QXBookReaderResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B7C3127B51ACA007CE029 /* QXBookReaderResources.swift */; };
+		752B7C3427B5F0C0007CE029 /* QXBookReaderIndexVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B7C3327B5F0C0007CE029 /* QXBookReaderIndexVc.swift */; };
+		752B7C3A27B650E5007CE029 /* QXBookReaderSettingsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B7C3927B650E5007CE029 /* QXBookReaderSettingsVc.swift */; };
+		752B7C3D27B65EAC007CE029 /* QXBookReaderTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B7C3C27B65EAC007CE029 /* QXBookReaderTheme.swift */; };
+		752B7C3F27B66A93007CE029 /* QXBookReaderConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B7C3E27B66A93007CE029 /* QXBookReaderConfigs.swift */; };
+		75531BC727BE197700B9CC4F /* QXBookChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75531BC627BE197700B9CC4F /* QXBookChapter.swift */; };
+		75531BD827BFB31800B9CC4F /* QXBookReaderPageMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75531BD727BFB31800B9CC4F /* QXBookReaderPageMode.swift */; };
+		7555E1E327B4A07D008B445C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555E1E227B4A07D008B445C /* AppDelegate.swift */; };
+		7555E1E727B4A07D008B445C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555E1E627B4A07D008B445C /* ViewController.swift */; };
+		7555E1EC27B4A081008B445C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7555E1EB27B4A081008B445C /* Assets.xcassets */; };
+		7555E20227B4A1DA008B445C /* QXBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555E20127B4A1DA008B445C /* QXBook.swift */; };
+		7555E20427B4A2CD008B445C /* QXBookIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555E20327B4A2CD008B445C /* QXBookIndex.swift */; };
+		7555E20D27B4A6E2008B445C /* QXBookParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555E20C27B4A6E2008B445C /* QXBookParser.swift */; };
+		7555E20F27B4A795008B445C /* QXBookOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555E20E27B4A795008B445C /* QXBookOptions.swift */; };
+		7555E21127B4A93B008B445C /* QXBookParserResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555E21027B4A93B008B445C /* QXBookParserResult.swift */; };
+		7555E21327B4AA67008B445C /* QXBookUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555E21227B4AA67008B445C /* QXBookUtils.swift */; };
+		7555E21527B4CE9C008B445C /* TestBooks.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7555E21427B4CE9C008B445C /* TestBooks.bundle */; };
+		757820F027BA6A1000618ABD /* QXBookTxtParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757820EF27BA6A1000618ABD /* QXBookTxtParser.swift */; };
+		757820F227BA6BA300618ABD /* QXBookEpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757820F127BA6BA300618ABD /* QXBookEpubParser.swift */; };
+		757820F427BB372500618ABD /* QXBookResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757820F327BB372500618ABD /* QXBookResource.swift */; };
+		757820FA27BCA4FA00618ABD /* QXBookReaderWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757820F927BCA4FA00618ABD /* QXBookReaderWebView.swift */; };
+		757F255727B90D6600584C4D /* QXBookReaderBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757F255627B90D6600584C4D /* QXBookReaderBarViews.swift */; };
+		75A69AC327CC7CD100A74B02 /* QXBookReaderChaptersVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A69AC227CC7CD100A74B02 /* QXBookReaderChaptersVc.swift */; };
+		75B933F827B9E27D0018EFD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B933F727B9E27D0018EFD0 /* LaunchScreen.storyboard */; };
+		75B933FC27B9FA280018EFD0 /* QXBookPageMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B933FB27B9FA280018EFD0 /* QXBookPageMark.swift */; };
+		75B933FE27BA59BD0018EFD0 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 75B933FD27BA59BD0018EFD0 /* test.html */; };
+		75E29E8E27C0C06300029BF7 /* QXBookReaderChapterVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E29E8D27C0C06300029BF7 /* QXBookReaderChapterVc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3999375C12F5DE3100A22241 /* Pods-QXBookReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXBookReader.debug.xcconfig"; path = "Target Support Files/Pods-QXBookReader/Pods-QXBookReader.debug.xcconfig"; sourceTree = "<group>"; };
+		752B7C2227B4DDFB007CE029 /* QXBookReaderVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderVc.swift; sourceTree = "<group>"; };
+		752B7C2827B500A1007CE029 /* QXBookReaderLoadStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderLoadStatusView.swift; sourceTree = "<group>"; };
+		752B7C2B27B50569007CE029 /* QXBookReaderUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderUtils.swift; sourceTree = "<group>"; };
+		752B7C2D27B51631007CE029 /* QXBookReaderResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QXBookReaderResources.bundle; sourceTree = "<group>"; };
+		752B7C2F27B51929007CE029 /* QXBookReaderUIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderUIs.swift; sourceTree = "<group>"; };
+		752B7C3127B51ACA007CE029 /* QXBookReaderResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderResources.swift; sourceTree = "<group>"; };
+		752B7C3327B5F0C0007CE029 /* QXBookReaderIndexVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderIndexVc.swift; sourceTree = "<group>"; };
+		752B7C3927B650E5007CE029 /* QXBookReaderSettingsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderSettingsVc.swift; sourceTree = "<group>"; };
+		752B7C3C27B65EAC007CE029 /* QXBookReaderTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderTheme.swift; sourceTree = "<group>"; };
+		752B7C3E27B66A93007CE029 /* QXBookReaderConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderConfigs.swift; sourceTree = "<group>"; };
+		75531BC627BE197700B9CC4F /* QXBookChapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookChapter.swift; sourceTree = "<group>"; };
+		75531BD727BFB31800B9CC4F /* QXBookReaderPageMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderPageMode.swift; sourceTree = "<group>"; };
+		7555E1DF27B4A07D008B445C /* QXBookReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QXBookReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7555E1E227B4A07D008B445C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7555E1E627B4A07D008B445C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7555E1EB27B4A081008B445C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7555E1F027B4A081008B445C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7555E20127B4A1DA008B445C /* QXBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBook.swift; sourceTree = "<group>"; };
+		7555E20327B4A2CD008B445C /* QXBookIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookIndex.swift; sourceTree = "<group>"; };
+		7555E20C27B4A6E2008B445C /* QXBookParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookParser.swift; sourceTree = "<group>"; };
+		7555E20E27B4A795008B445C /* QXBookOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookOptions.swift; sourceTree = "<group>"; };
+		7555E21027B4A93B008B445C /* QXBookParserResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookParserResult.swift; sourceTree = "<group>"; };
+		7555E21227B4AA67008B445C /* QXBookUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookUtils.swift; sourceTree = "<group>"; };
+		7555E21427B4CE9C008B445C /* TestBooks.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TestBooks.bundle; sourceTree = "<group>"; };
+		757820EF27BA6A1000618ABD /* QXBookTxtParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookTxtParser.swift; sourceTree = "<group>"; };
+		757820F127BA6BA300618ABD /* QXBookEpubParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookEpubParser.swift; sourceTree = "<group>"; };
+		757820F327BB372500618ABD /* QXBookResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookResource.swift; sourceTree = "<group>"; };
+		757820F927BCA4FA00618ABD /* QXBookReaderWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderWebView.swift; sourceTree = "<group>"; };
+		757F255627B90D6600584C4D /* QXBookReaderBarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderBarViews.swift; sourceTree = "<group>"; };
+		75A69AC227CC7CD100A74B02 /* QXBookReaderChaptersVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QXBookReaderChaptersVc.swift; sourceTree = "<group>"; };
+		75B933F727B9E27D0018EFD0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75B933FB27B9FA280018EFD0 /* QXBookPageMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookPageMark.swift; sourceTree = "<group>"; };
+		75B933FD27BA59BD0018EFD0 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		75E29E8D27C0C06300029BF7 /* QXBookReaderChapterVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QXBookReaderChapterVc.swift; sourceTree = "<group>"; };
+		CEF7FEA5303C06236375FABC /* Pods-QXBookReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXBookReader.release.xcconfig"; path = "Target Support Files/Pods-QXBookReader/Pods-QXBookReader.release.xcconfig"; sourceTree = "<group>"; };
+		D9F62FC5C4511E4664130C51 /* Pods_QXBookReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXBookReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7555E1DC27B4A07D008B445C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CE972E72FA9D3D3735FFCA /* Pods_QXBookReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		752B7C3B27B65E98007CE029 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				752B7C3C27B65EAC007CE029 /* QXBookReaderTheme.swift */,
+				75531BD727BFB31800B9CC4F /* QXBookReaderPageMode.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		7555E1D627B4A07D008B445C = {
+			isa = PBXGroup;
+			children = (
+				7555E1E127B4A07D008B445C /* QXBookReader */,
+				7555E1E027B4A07D008B445C /* Products */,
+				AE9D8EC2C3007E60492058A3 /* Pods */,
+				9D9E6EEA917C188113452F3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7555E1E027B4A07D008B445C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7555E1DF27B4A07D008B445C /* QXBookReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7555E1E127B4A07D008B445C /* QXBookReader */ = {
+			isa = PBXGroup;
+			children = (
+				7555E21427B4CE9C008B445C /* TestBooks.bundle */,
+				7555E1F627B4A137008B445C /* QXBookReader */,
+				7555E1E627B4A07D008B445C /* ViewController.swift */,
+				75B933FD27BA59BD0018EFD0 /* test.html */,
+				75B933F727B9E27D0018EFD0 /* LaunchScreen.storyboard */,
+				7555E1E227B4A07D008B445C /* AppDelegate.swift */,
+				7555E1EB27B4A081008B445C /* Assets.xcassets */,
+				7555E1F027B4A081008B445C /* Info.plist */,
+			);
+			path = QXBookReader;
+			sourceTree = "<group>";
+		};
+		7555E1F627B4A137008B445C /* QXBookReader */ = {
+			isa = PBXGroup;
+			children = (
+				752B7C3E27B66A93007CE029 /* QXBookReaderConfigs.swift */,
+				752B7C3B27B65E98007CE029 /* models */,
+				7555E20027B4A17A008B445C /* parser */,
+				752B7C2227B4DDFB007CE029 /* QXBookReaderVc.swift */,
+				752B7C3327B5F0C0007CE029 /* QXBookReaderIndexVc.swift */,
+				752B7C2827B500A1007CE029 /* QXBookReaderLoadStatusView.swift */,
+				752B7C2B27B50569007CE029 /* QXBookReaderUtils.swift */,
+				752B7C3127B51ACA007CE029 /* QXBookReaderResources.swift */,
+				752B7C2D27B51631007CE029 /* QXBookReaderResources.bundle */,
+				752B7C2F27B51929007CE029 /* QXBookReaderUIs.swift */,
+				757F255627B90D6600584C4D /* QXBookReaderBarViews.swift */,
+				752B7C3927B650E5007CE029 /* QXBookReaderSettingsVc.swift */,
+				757820F927BCA4FA00618ABD /* QXBookReaderWebView.swift */,
+				75A69AC227CC7CD100A74B02 /* QXBookReaderChaptersVc.swift */,
+				75E29E8D27C0C06300029BF7 /* QXBookReaderChapterVc.swift */,
+			);
+			path = QXBookReader;
+			sourceTree = "<group>";
+		};
+		7555E20027B4A17A008B445C /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				7555E20B27B4A6C6008B445C /* models */,
+				7555E20C27B4A6E2008B445C /* QXBookParser.swift */,
+				7555E20E27B4A795008B445C /* QXBookOptions.swift */,
+				7555E21027B4A93B008B445C /* QXBookParserResult.swift */,
+				7555E21227B4AA67008B445C /* QXBookUtils.swift */,
+				757820EF27BA6A1000618ABD /* QXBookTxtParser.swift */,
+				757820F127BA6BA300618ABD /* QXBookEpubParser.swift */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		7555E20B27B4A6C6008B445C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7555E20127B4A1DA008B445C /* QXBook.swift */,
+				75531BC627BE197700B9CC4F /* QXBookChapter.swift */,
+				7555E20327B4A2CD008B445C /* QXBookIndex.swift */,
+				75B933FB27B9FA280018EFD0 /* QXBookPageMark.swift */,
+				757820F327BB372500618ABD /* QXBookResource.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		9D9E6EEA917C188113452F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9F62FC5C4511E4664130C51 /* Pods_QXBookReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE9D8EC2C3007E60492058A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3999375C12F5DE3100A22241 /* Pods-QXBookReader.debug.xcconfig */,
+				CEF7FEA5303C06236375FABC /* Pods-QXBookReader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7555E1DE27B4A07D008B445C /* QXBookReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7555E1F327B4A081008B445C /* Build configuration list for PBXNativeTarget "QXBookReader" */;
+			buildPhases = (
+				69AFC889CD3C3DC286E3A3AB /* [CP] Check Pods Manifest.lock */,
+				7555E1DB27B4A07D008B445C /* Sources */,
+				7555E1DC27B4A07D008B445C /* Frameworks */,
+				7555E1DD27B4A07D008B445C /* Resources */,
+				60886C79A76EB36F1A17A9E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QXBookReader;
+			productName = QXBookReader;
+			productReference = 7555E1DF27B4A07D008B445C /* QXBookReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7555E1D727B4A07D008B445C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7555E1DE27B4A07D008B445C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 7555E1DA27B4A07D008B445C /* Build configuration list for PBXProject "QXBookReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7555E1D627B4A07D008B445C;
+			productRefGroup = 7555E1E027B4A07D008B445C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7555E1DE27B4A07D008B445C /* QXBookReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7555E1DD27B4A07D008B445C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7555E1EC27B4A081008B445C /* Assets.xcassets in Resources */,
+				75B933F827B9E27D0018EFD0 /* LaunchScreen.storyboard in Resources */,
+				752B7C2E27B51631007CE029 /* QXBookReaderResources.bundle in Resources */,
+				75B933FE27BA59BD0018EFD0 /* test.html in Resources */,
+				7555E21527B4CE9C008B445C /* TestBooks.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60886C79A76EB36F1A17A9E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QXBookReader/Pods-QXBookReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QXBookReader/Pods-QXBookReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QXBookReader/Pods-QXBookReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69AFC889CD3C3DC286E3A3AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QXBookReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7555E1DB27B4A07D008B445C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7555E1E727B4A07D008B445C /* ViewController.swift in Sources */,
+				752B7C3F27B66A93007CE029 /* QXBookReaderConfigs.swift in Sources */,
+				75531BD827BFB31800B9CC4F /* QXBookReaderPageMode.swift in Sources */,
+				7555E21327B4AA67008B445C /* QXBookUtils.swift in Sources */,
+				752B7C3D27B65EAC007CE029 /* QXBookReaderTheme.swift in Sources */,
+				75E29E8E27C0C06300029BF7 /* QXBookReaderChapterVc.swift in Sources */,
+				757820F427BB372500618ABD /* QXBookResource.swift in Sources */,
+				7555E1E327B4A07D008B445C /* AppDelegate.swift in Sources */,
+				752B7C2C27B50569007CE029 /* QXBookReaderUtils.swift in Sources */,
+				7555E20F27B4A795008B445C /* QXBookOptions.swift in Sources */,
+				757F255727B90D6600584C4D /* QXBookReaderBarViews.swift in Sources */,
+				757820F027BA6A1000618ABD /* QXBookTxtParser.swift in Sources */,
+				752B7C2327B4DDFB007CE029 /* QXBookReaderVc.swift in Sources */,
+				752B7C3027B51929007CE029 /* QXBookReaderUIs.swift in Sources */,
+				75A69AC327CC7CD100A74B02 /* QXBookReaderChaptersVc.swift in Sources */,
+				752B7C2927B500A1007CE029 /* QXBookReaderLoadStatusView.swift in Sources */,
+				7555E20227B4A1DA008B445C /* QXBook.swift in Sources */,
+				752B7C3A27B650E5007CE029 /* QXBookReaderSettingsVc.swift in Sources */,
+				75B933FC27B9FA280018EFD0 /* QXBookPageMark.swift in Sources */,
+				75531BC727BE197700B9CC4F /* QXBookChapter.swift in Sources */,
+				757820F227BA6BA300618ABD /* QXBookEpubParser.swift in Sources */,
+				7555E20427B4A2CD008B445C /* QXBookIndex.swift in Sources */,
+				752B7C3227B51ACA007CE029 /* QXBookReaderResources.swift in Sources */,
+				752B7C3427B5F0C0007CE029 /* QXBookReaderIndexVc.swift in Sources */,
+				7555E20D27B4A6E2008B445C /* QXBookParser.swift in Sources */,
+				757820FA27BCA4FA00618ABD /* QXBookReaderWebView.swift in Sources */,
+				7555E21127B4A93B008B445C /* QXBookParserResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7555E1F127B4A081008B445C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7555E1F227B4A081008B445C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7555E1F427B4A081008B445C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3999375C12F5DE3100A22241 /* Pods-QXBookReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = R3L4VQN3Q9;
+				INFOPLIST_FILE = QXBookReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhongss.htk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = htk_dev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7555E1F527B4A081008B445C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF7FEA5303C06236375FABC /* Pods-QXBookReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = R3L4VQN3Q9;
+				INFOPLIST_FILE = QXBookReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhongss.htk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = htk_dev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7555E1DA27B4A07D008B445C /* Build configuration list for PBXProject "QXBookReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7555E1F127B4A081008B445C /* Debug */,
+				7555E1F227B4A081008B445C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7555E1F327B4A081008B445C /* Build configuration list for PBXNativeTarget "QXBookReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7555E1F427B4A081008B445C /* Debug */,
+				7555E1F527B4A081008B445C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7555E1D727B4A07D008B445C /* Project object */;
+}
